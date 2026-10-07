@@ -1,0 +1,29 @@
+{
+  "name": "blushwood-theme",
+  "displayName": "Blushwood",
+  "description": "A soft, low-glare dark theme inspired by Everblush",
+  "version": "0.1.0",
+  "publisher": "sgxtract",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#141b1e",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgxtract/blushwood-theme"
+  },
+  "keywords": ["theme", "dark theme", "everblush", "low contrast", "markdown"],
+  "engines": { "vscode": "^1.140.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blushwood",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blushwood-color-theme.json"
+      }
+    ]
+  }
+}
